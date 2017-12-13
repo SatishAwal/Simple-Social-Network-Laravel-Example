@@ -39,3 +39,20 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 # laravel
+# Installation
+git clone https://github.com/SatishAwal/Simple-Social-Network-Laravel-Example.git projectname //Your Project name//
+cd projectname
+composer install
+php artisan key:generate
+Create a database and inform .env
+php artisan migrate --seed to create and populate tables
+Inform config/mail.php for email sends
+php artisan serve to start the app on http://localhost:8000/
+
+#Features
+Home page
+Custom Error Page 404
+Authentication (Registration, Login, Logout, Password Reset, Mail confirmation)
+Blog with comments
+Search in posts
+Tags on posts
